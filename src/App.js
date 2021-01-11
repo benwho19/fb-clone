@@ -1,19 +1,19 @@
 
 import './App.css';
-import { Header } from './components';
+import { Header, Sidebar } from './components';
 
 function App() {
   return (
     <div className="app">
 
-      <Header/>
+        <Header/>
 
-      <div className='app__body'>
-
-      </div>
+        <div className='app__body'>
+            <Sidebar/>
+        </div>
 
     </div>
-  );
+    );
 }
 
 export default App;
